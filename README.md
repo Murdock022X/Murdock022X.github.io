@@ -10,7 +10,7 @@
 
 ### Education
 
-- University of Illinois, Professional Masters of Computer Science
+- University of Illinois @ Urbana Champaign, Professional Masters of Computer Science
     - Degree begins August 2025, expected graduation in December 2026.
 - Michigan State University, B.S Computer Science
     - 8/2021 - 5/2025
