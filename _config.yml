@@ -1,6 +1,6 @@
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: ngzhio/jekyll-theme-hamilton
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 title: Henry Murdock
 description: Henry Murdock's Website & Portfolio
 author:

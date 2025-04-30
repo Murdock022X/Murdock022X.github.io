@@ -1,12 +1,5 @@
 # Henry Murdock
 
-![Profile Picture](/profile_pic.jpg)
-
-## Contact
-- 📧 Email: [henrygm3@illinois.edu](mailto:henrygm3@illinois.edu)
-- 💼 LinkedIn: [linkedin.com/in/henry-murdock](https://www.linkedin.com/in/henry-murdock)
-- 🛠 GitHub: [github.com/Murdock022X](https://github.com/Murdock022X)
-
 ### Announcements
 
 - [5/4/2025] Graduated with 4.0 from Michigan State University with degree in Computer Science!
