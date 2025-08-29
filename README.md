@@ -2,10 +2,18 @@
 
 ### Announcements
 
+- [8/25/2025] Started Masters Degree at UIUC! Classes for Fall 2025: 
+    - Manycore Parallel Algorithms (ECE 508)
+    - Distributed Systems (CS 425)
+    - Applied Machine Learning (CS 441)
 - [5/4/2025] Graduated with 4.0 from Michigan State University with degree in Computer Science!
+
 - [4/3/2025] Accepted offer from University of Illinois!
+
 - [4/3/2025] Accepted to University of Michigan Computer Science M.S program!
+
 - [3/19/2025] Accepted to University of Illinois @ Urbana Champaign Professional Masters of Computer Science program!
+
 - [3/17/2025] Accepted to Michigan State University Computer Science M.S program!
 
 ### Education
