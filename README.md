@@ -7,6 +7,7 @@
     - Distributed Systems (CS 425)
     - Applied Machine Learning (CS 441)
 
+
 - [5/2025] Started full-time SWE for the summer with KLA computational physics team, working on computational acceleration of electron optics simulations for the summer.
 
 - [5/2025] Graduated with 4.0 GPA from Michigan State University with a B.S in Computer Science!
@@ -31,6 +32,8 @@
 
 - University of Illinois @ Urbana Champaign, Professional Masters of Computer Science
     - Degree begins August 2025, expected graduation in December 2026.
+
+
 - Michigan State University, B.S Computer Science
     - 8/2021 - 5/2025
     - GPA: 4.0/4.0
