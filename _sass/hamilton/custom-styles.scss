@@ -1,3 +1,125 @@
+:root {
+    color-scheme: light;
+}
+
+html,
+body {
+    background: #e8dcc6;
+    color: #1f2937;
+}
+
 .site-title {
-    font-family: sans-serif;
+    font-family: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.announcement-list {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.announcement-item {
+    border: 1px solid #ccbfa6;
+    border-left: 4px solid #3b82f6;
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    background: #f7f2e8;
+    color: #1f2937;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+}
+
+.announcement-date {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1d4ed8;
+}
+
+.announcement-title {
+    margin: 0.25rem 0 0.35rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.announcement-item p {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+}
+
+.announcement-item ul {
+    margin: 0.25rem 0 0;
+    padding-left: 1.25rem;
+}
+
+.announcement-item li {
+    margin: 0.2rem 0;
+    padding-left: 0.1rem;
+}
+
+/* Force light rendering without collapsing layout */
+html,
+body {
+    background-color: #e8dcc6 !important;
+    color: #1f2937 !important;
+}
+
+/* Hide only the top header bar */
+.site-header {
+    display: none !important;
+}
+
+/* Preserve normal document flow and keep full page visible */
+.site-content,
+.page-content,
+main,
+.wrapper,
+.post,
+.post-content {
+    position: static !important;
+    overflow: visible !important;
+    max-height: none !important;
+}
+
+.site-content {
+    padding-top: 0.75rem;
+}
+
+/* Remove subscribe elements */
+.subscribe,
+.subscribe-link,
+.rss-subscribe,
+a[href*="feed.xml"],
+a[title*="Subscribe"],
+a[aria-label*="Subscribe"] {
+    display: none !important;
+}
+
+/* Hide username handles that render with @ prefixes */
+.username,
+.author-username,
+.site-username {
+    display: none !important;
+}
+
+/* Add KLA logo to sidebar */
+.site-sidebar::after,
+.sidebar::after,
+aside::after {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin: 1rem auto 0;
+    background: url('/kla-logo.svg') center/contain no-repeat;
 }
