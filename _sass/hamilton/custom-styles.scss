@@ -67,40 +67,30 @@ h3 {
     padding-left: 0.1rem;
 }
 
-/* Force light rendering regardless of system/browser theme */
+/* Force light rendering without collapsing layout */
 html,
-body,
-.site,
-.site-content,
-.page-content {
+body {
     background-color: #e8dcc6 !important;
     color: #1f2937 !important;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li,
-a,
-span {
-    color: inherit;
-}
-
-/* Remove only the top theme header/nav (avoid hiding page content containers) */
-.site-header,
-.site-header .site-nav,
-.site-header nav {
+/* Hide only the top header bar */
+.site-header {
     display: none !important;
 }
 
-/* Keep page content fully visible after header removal */
+/* Preserve normal document flow and keep full page visible */
 .site-content,
 .page-content,
-main {
-    display: block;
+main,
+.wrapper,
+.post,
+.post-content {
+    position: static !important;
+    overflow: visible !important;
+    max-height: none !important;
+}
+
+.site-content {
     padding-top: 0.75rem;
 }
