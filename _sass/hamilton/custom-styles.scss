@@ -90,18 +90,17 @@ span {
     color: inherit;
 }
 
-/* Remove top navigation/header completely */
+/* Remove only the top theme header/nav (avoid hiding page content containers) */
 .site-header,
-.site-nav,
-nav,
-.navbar,
-.navigation {
+.site-header .site-nav,
+.site-header nav {
     display: none !important;
 }
 
-/* Balance layout after removing header */
+/* Keep page content fully visible after header removal */
+.site-content,
 .page-content,
-.wrapper,
 main {
-    padding-top: 1rem;
+    display: block;
+    padding-top: 0.75rem;
 }
