@@ -61,6 +61,24 @@ h3 {
     background: #f7f2e8;
 }
 
+
+
+.announcement-list > .announcement-item {
+    position: relative;
+}
+
+.announcement-list > .announcement-item::before {
+    content: "";
+    position: absolute;
+    top: 1.05rem;
+    left: -1.33rem;
+    width: 0.72rem;
+    height: 0.72rem;
+    border-radius: 999px;
+    border: 2px solid #000;
+    background: #f7f2e8;
+}
+
 .announcement-date {
     margin: 0;
     font-size: 0.85rem;
