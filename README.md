@@ -74,21 +74,57 @@
 
 ### Education
 
-- University of Illinois @ Urbana Champaign, Professional Masters of Computer Science
-    - Degree begins August 2025, expected graduation in December 2026.
+<div class="announcement-list">
+  <div class="announcement-item">
+    <p class="announcement-title">University of Illinois @ Urbana Champaign, Professional Masters of Computer Science</p>
+    <ul>
+      <li>Degree begins August 2025, expected graduation in December 2026.</li>
+    </ul>
+  </div>
 
-
-- Michigan State University, B.S Computer Science
-    - 8/2021 - 5/2025
-    - GPA: 4.0/4.0
+  <div class="announcement-item">
+    <p class="announcement-title">Michigan State University, B.S Computer Science</p>
+    <ul>
+      <li>8/2021 - 5/2025</li>
+      <li>GPA: 4.0/4.0</li>
+    </ul>
+  </div>
+</div>
 
 ### Experience
 
-- Software Engineer, KLA Computational Physics [5/2025]: 
-Accepted KLA sponsorship for masters degree. This includes full time employment during summers and part time employment during the school year. I focused specifically on the electron optics of scanning electron microscope simulation that needed acceleration. The most significant part of this is Coulomb N-Body interaction of electrons, the result of my work on this was that this computation was moved to the GPU and utilized a tree based method allowing scaling of the number of particles from 10<sup>5</sup> to 10<sup>10</sup> per GPU.
+<div class="announcement-list">
+  <div class="announcement-item">
+    <p class="announcement-title">Software Engineer, KLA Computational Physics [5/2025]</p>
+    <p>
+      Accepted KLA sponsorship for masters degree. This includes full time employment during
+      summers and part time employment during the school year. I focused specifically on the
+      electron optics of scanning electron microscope simulation that needed acceleration. The most
+      significant part of this is Coulomb N-Body interaction of electrons, the result of my work on
+      this was that this computation was moved to the GPU and utilized a tree based method allowing
+      scaling of the number of particles from 10<sup>5</sup> to 10<sup>10</sup> per GPU.
+    </p>
+  </div>
 
-- Software Internship, KLA Computational Physics [5/2024]: 
-Did skunkworks for a brand new project that aims to simulate the underlying physics of scanning electron microscopes. Skunkworks included refactoring and developing infrastructure for starting simplified core models. Reached 800X speedup for generation of secondary electron yield emissions using Numba Cuda. This has significant applications for CAE (Computer Aided Engineering), Systems Engineering, and Synthetic Data generation for AI Algos. This project is now a fully funded project and 3 PhDs and I are continuing to work on this full time. I continued this work on a part time basis during my senior year of undergrad.
+  <div class="announcement-item">
+    <p class="announcement-title">Software Internship, KLA Computational Physics [5/2024]</p>
+    <p>
+      Did skunkworks for a brand new project that aims to simulate the underlying physics of
+      scanning electron microscopes. Skunkworks included refactoring and developing infrastructure
+      for starting simplified core models. Reached 800X speedup for generation of secondary
+      electron yield emissions using Numba Cuda. This has significant applications for CAE
+      (Computer Aided Engineering), Systems Engineering, and Synthetic Data generation for AI
+      Algos. This project is now a fully funded project and 3 PhDs and I are continuing to work on
+      this full time. I continued this work on a part time basis during my senior year of undergrad.
+    </p>
+  </div>
 
-- Software Internship, KLA SW Infra [5/2023]: 
-Developed the underlying Apache Airflow code to deploy ML models using K8s with GPU support, and dynamic control for number of training instances. Included deploying my own K8s cluster, learning containerization & NVIDIA GPU Operator.
+  <div class="announcement-item">
+    <p class="announcement-title">Software Internship, KLA SW Infra [5/2023]</p>
+    <p>
+      Developed the underlying Apache Airflow code to deploy ML models using K8s with GPU support,
+      and dynamic control for number of training instances. Included deploying my own K8s cluster,
+      learning containerization & NVIDIA GPU Operator.
+    </p>
+  </div>
+</div>
