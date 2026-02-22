@@ -160,22 +160,19 @@ aside [class*="subscribe"],
     display: none !important;
 }
 
-/* Sidebar skills group label (after GitHub + LinkedIn) */
-.site-sidebar .social-media-list li:nth-child(3),
-.sidebar .social-media-list li:nth-child(3),
-aside .social-media-list li:nth-child(3) {
-    margin-top: 1.25rem;
+/* Sidebar skills badges in a separate section below social links */
+.site-sidebar .skills-badge-section,
+.sidebar .skills-badge-section,
+aside .skills-badge-section {
+    margin-top: 1rem;
     padding-top: 0.8rem;
     border-top: 1px solid #ccbfa6;
-    position: relative;
 }
 
-.site-sidebar .social-media-list li:nth-child(3)::before,
-.sidebar .social-media-list li:nth-child(3)::before,
-aside .social-media-list li:nth-child(3)::before {
-    content: "Skills";
-    display: block;
-    margin-bottom: 0.5rem;
+.site-sidebar .skills-badge-title,
+.sidebar .skills-badge-title,
+aside .skills-badge-title {
+    margin: 0 0 0.55rem;
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -183,80 +180,39 @@ aside .social-media-list li:nth-child(3)::before {
     color: #1d4ed8;
 }
 
-/* Skill badge styling in sidebar (items after GitHub + LinkedIn) */
-.site-sidebar .social-media-list li:nth-child(n+3),
-.sidebar .social-media-list li:nth-child(n+3),
-aside .social-media-list li:nth-child(n+3) {
-    margin: 0.4rem 0;
+.site-sidebar .skills-badge-row,
+.sidebar .skills-badge-row,
+aside .skills-badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
 }
 
-.site-sidebar .social-media-list li:nth-child(n+3) i,
-.sidebar .social-media-list li:nth-child(n+3) i,
-aside .social-media-list li:nth-child(n+3) i {
-    display: none;
-}
-
-.site-sidebar .social-media-list li:nth-child(n+3) .skill-badge,
-.sidebar .social-media-list li:nth-child(n+3) .skill-badge,
-aside .social-media-list li:nth-child(n+3) .skill-badge {
+.site-sidebar .skills-badge-row .skill-badge,
+.sidebar .skills-badge-row .skill-badge,
+aside .skills-badge-row .skill-badge {
     display: inline-flex;
     align-items: center;
-    gap: 0.45rem;
-    padding: 0.3rem 0.55rem;
+    line-height: 1;
+}
+
+.site-sidebar .skills-badge-image,
+.sidebar .skills-badge-image,
+aside .skills-badge-image {
+    display: block;
+    height: 20px;
+    width: auto;
+    border-radius: 3px;
+}
+
+.site-sidebar .skills-badge-row .skill-badge.skill-badge--text,
+.sidebar .skills-badge-row .skill-badge.skill-badge--text,
+aside .skills-badge-row .skill-badge.skill-badge--text {
+    padding: 0.2rem 0.45rem;
     border: 1px solid #d0d7de;
-    border-radius: 999px;
+    border-radius: 3px;
     background: #f6f8fa;
     color: #24292f;
-    font-size: 0.82rem;
+    font-size: 0.72rem;
     font-weight: 700;
-    line-height: 1.1;
-    white-space: nowrap;
-}
-
-.site-sidebar .social-media-list li:nth-child(n+3) .skill-badge::before,
-.sidebar .social-media-list li:nth-child(n+3) .skill-badge::before,
-aside .social-media-list li:nth-child(n+3) .skill-badge::before {
-    content: none;
-}
-
-.site-sidebar .social-media-list li:nth-child(3) .skill-badge::before,
-.sidebar .social-media-list li:nth-child(3) .skill-badge::before,
-aside .social-media-list li:nth-child(3) .skill-badge::before {
-    content: "";
-    width: 1rem;
-    height: 1rem;
-    border-radius: 4px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex: 0 0 1rem;
-    background-image: url("/assets/skills/cuda.png");
-}
-
-.site-sidebar .social-media-list li:nth-child(4) .skill-badge::before,
-.sidebar .social-media-list li:nth-child(4) .skill-badge::before,
-aside .social-media-list li:nth-child(4) .skill-badge::before {
-    content: "";
-    width: 1rem;
-    height: 1rem;
-    border-radius: 4px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex: 0 0 1rem;
-    background-image: url("/assets/skills/cpp.png");
-}
-
-.site-sidebar .social-media-list li:nth-child(5) .skill-badge::before,
-.sidebar .social-media-list li:nth-child(5) .skill-badge::before,
-aside .social-media-list li:nth-child(5) .skill-badge::before {
-    content: "";
-    width: 1rem;
-    height: 1rem;
-    border-radius: 4px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex: 0 0 1rem;
-    background-image: url("/assets/skills/python.png");
 }

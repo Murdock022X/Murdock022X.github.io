@@ -72,22 +72,62 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  var badgeMap = {
+    "CUDA": "https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white",
+    "C/C++": "https://img.shields.io/badge/C%2FC%2B%2B-00599C?logo=cplusplus&logoColor=white",
+    "Python": "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white",
+    "GPU": "https://img.shields.io/badge/GPU-111827?logo=nvidia&logoColor=white"
+  };
+
   var lists = document.querySelectorAll(".social-media-list");
   lists.forEach(function (list) {
     var items = list.querySelectorAll("li");
     if (items.length < 3) return;
 
+    var skillItems = [];
     for (var i = 2; i < items.length; i++) {
       var li = items[i];
       var link = li.querySelector("a");
       if (!link) continue;
+      skillItems.push(link.textContent.trim());
+      li.remove();
+    }
 
-      var label = link.textContent.trim();
+    if (!skillItems.length) return;
+
+    var section = document.createElement("div");
+    section.className = "skills-badge-section";
+
+    var heading = document.createElement("p");
+    heading.className = "skills-badge-title";
+    heading.textContent = "Skills";
+    section.appendChild(heading);
+
+    var row = document.createElement("div");
+    row.className = "skills-badge-row";
+
+    skillItems.forEach(function (label) {
       var badge = document.createElement("span");
       badge.className = "skill-badge";
-      badge.textContent = label;
-      link.replaceWith(badge);
-    }
+
+      var badgeUrl = badgeMap[label];
+      if (badgeUrl) {
+        var img = document.createElement("img");
+        img.className = "skill-badge-image";
+        img.src = badgeUrl;
+        img.alt = label + " badge";
+        img.loading = "lazy";
+        badge.appendChild(img);
+      } else {
+        badge.classList.add("skill-badge--text");
+        badge.textContent = label;
+      }
+
+      row.appendChild(badge);
+    });
+
+    section.appendChild(row);
+    list.insertAdjacentElement("afterend", section);
   });
 });
 </script>
