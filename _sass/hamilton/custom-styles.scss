@@ -1,14 +1,5 @@
-:root {
-    color-scheme: light;
-}
-
-html,
-body {
-    background: #e8dcc6;
-    color: #1f2937;
-}
-
 .site-title {
+    font-family: sans-serif;
     font-family: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -26,21 +17,6 @@ h3 {
     gap: 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
-<<<<<<< HEAD
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.announcement-list::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: var(--timeline-offset);
-    width: 2px;
-    background: #000;
-=======
->>>>>>> parent of ffcf6a4 (Style announcements as black timeline cards)
 }
 
 .announcement-item {

@@ -2,7 +2,9 @@ remote_theme: ngzhio/jekyll-theme-hamilton
 plugins:
   - jekyll-remote-theme
 title: Henry Murdock
-description: Software engineer focused on computational physics, high-performance computing, and machine learning systems.
+description: Henry Murdock's Website & Portfolio
 author: Henry Murdock
 email: henrygm3@illinois.edu
+github: Murdock022X
+linkedin: henry-murdock
 avatar: /profile_pic.jpg
