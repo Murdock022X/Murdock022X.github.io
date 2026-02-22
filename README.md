@@ -7,9 +7,11 @@
     <p class="announcement-date">8/25/2025</p>
     <p class="announcement-title">Started Masters Degree at UIUC</p>
     <p>Classes for Fall 2025:</p>
-    <p>Manycore Parallel Algorithms (ECE 508)</p>
-    <p>Distributed Systems (CS 425)</p>
-    <p>Applied Machine Learning (CS 441)</p>
+    <ul>
+      <li>Manycore Parallel Algorithms (ECE 508)</li>
+      <li>Distributed Systems (CS 425)</li>
+      <li>Applied Machine Learning (CS 441)</li>
+    </ul>
   </article>
 
   <article class="announcement-item">

@@ -6,13 +6,9 @@
   icon: fab fa-linkedin
 - title: CUDA
   url: https://developer.nvidia.com/cuda-zone
-  icon: fab fa-nvidia
 - title: C/C++
   url: https://isocpp.org/
-  icon: fas fa-code
 - title: Python
   url: https://www.python.org/
-  icon: fab fa-python
 - title: GPU
   url: https://developer.nvidia.com/gpu-computing
-  icon: fas fa-microchip
