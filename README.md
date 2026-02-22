@@ -2,49 +2,108 @@
 
 ### Announcements
 
-- [8/25/2025] Started Masters Degree at UIUC! Classes for Fall 2025: 
-    - Manycore Parallel Algorithms (ECE 508)
-    - Distributed Systems (CS 425)
-    - Applied Machine Learning (CS 441)
+<div class="announcement-list">
+  <article class="announcement-item">
+    <p class="announcement-date">8/25/2025</p>
+    <p class="announcement-title">Started Masters Degree at UIUC</p>
+    <p>Classes for Fall 2025:</p>
+    <ul>
+      <li>Manycore Parallel Algorithms (ECE 508)</li>
+      <li>Distributed Systems (CS 425)</li>
+      <li>Applied Machine Learning (CS 441)</li>
+    </ul>
+  </article>
 
+  <article class="announcement-item">
+    <p class="announcement-date">5/2025</p>
+    <p class="announcement-title">Started full-time SWE for the summer with KLA Computational Physics</p>
+    <p>Working on computational acceleration of electron optics simulations.</p>
+  </article>
 
-- [5/2025] Started full-time SWE for the summer with KLA computational physics team, working on computational acceleration of electron optics simulations for the summer.
+  <article class="announcement-item">
+    <p class="announcement-date">5/2025</p>
+    <p class="announcement-title">Graduated from Michigan State University</p>
+    <p>B.S. in Computer Science, GPA: 4.0/4.0.</p>
+  </article>
 
-- [5/2025] Graduated with 4.0 GPA from Michigan State University with a B.S in Computer Science!
+  <article class="announcement-item">
+    <p class="announcement-date">5/2025</p>
+    <p class="announcement-title">Completed Spring 2025</p>
+    <p>Notable classes: Performance Engineering and graduate-level DSA. The Performance Engineering course mirrors MIT's course by Charles E. Leiserson.</p>
+  </article>
 
-- [5/2025] Completed spring 2025, notable classes: performance engineering + graduate level DSA course. Performance engineering was a great course with content being brought over by MIT to MSU, the course mirrors the Performance Engineering course by Charles E. Leiserson at MIT.
+  <article class="announcement-item">
+    <p class="announcement-date">4/2025</p>
+    <p class="announcement-title">Accepted M.C.S offer from University of Illinois Urbana-Champaign</p>
+  </article>
 
-- [4/2025] Accepted M.C.S offer from University of Illinois @ Urbana Champaign!
+  <article class="announcement-item">
+    <p class="announcement-date">4/2025</p>
+    <p class="announcement-title">Accepted to University of Michigan Computer Science M.S. program</p>
+  </article>
 
-- [4/2025] Accepted to University of Michigan Computer Science M.S program!
+  <article class="announcement-item">
+    <p class="announcement-date">3/2025</p>
+    <p class="announcement-title">Accepted to University of Illinois Urbana-Champaign M.C.S. program</p>
+  </article>
 
-- [3/2025] Accepted to University of Illinois @ Urbana Champaign M.C.S program!
+  <article class="announcement-item">
+    <p class="announcement-date">3/2025</p>
+    <p class="announcement-title">Accepted to Michigan State University Computer Science M.S. program</p>
+  </article>
 
-- [3/2025] Accepted to Michigan State University Computer Science M.S program!
+  <article class="announcement-item">
+    <p class="announcement-date">12/2024</p>
+    <p class="announcement-title">Completed AbbVie capstone project</p>
+    <p>Analysis of biphasic solutions using computer vision.</p>
+  </article>
 
-- [12/2024] Completed a capstone project with Abbvie for analysis of biphasic solutions using computer vision.
+  <article class="announcement-item">
+    <p class="announcement-date">9/2024</p>
+    <p class="announcement-title">Accepted KLA offer for SWE P1 (Summer 2025)</p>
+    <p>Includes MCS sponsorship and a post-graduation P2 position.</p>
+  </article>
 
-- [9/2024] Accepted KLA offer for SWE P1 for summer 2025 with sponsorship for masters in CS and P2 position post graduation!
-
-- [5/2024] Started my second SWE internship @ KLA with the computational physics team!
+  <article class="announcement-item">
+    <p class="announcement-date">5/2024</p>
+    <p class="announcement-title">Started second SWE internship at KLA Computational Physics</p>
+  </article>
+</div>
 
 ### Education
 
-- University of Illinois @ Urbana Champaign, Professional Masters of Computer Science
-    - Degree begins August 2025, expected graduation in December 2026.
+<div class="announcement-list">
+  <article class="announcement-item">
+    <p class="announcement-date">8/2025 - 12/2026 (Expected)</p>
+    <p class="announcement-title">University of Illinois Urbana-Champaign</p>
+    <p>Professional Master of Computer Science.</p>
+  </article>
 
-
-- Michigan State University, B.S Computer Science
-    - 8/2021 - 5/2025
-    - GPA: 4.0/4.0
+  <article class="announcement-item">
+    <p class="announcement-date">8/2021 - 5/2025</p>
+    <p class="announcement-title">Michigan State University</p>
+    <p>B.S. Computer Science, GPA: 4.0/4.0.</p>
+  </article>
+</div>
 
 ### Experience
 
-- Software Engineer, KLA Computational Physics [5/2025]: 
-Accepted KLA sponsorship for masters degree. This includes full time employment during summers and part time employment during the school year. I focused specifically on the electron optics of scanning electron microscope simulation that needed acceleration. The most significant part of this is Coulomb N-Body interaction of electrons, the result of my work on this was that this computation was moved to the GPU and utilized a tree based method allowing scaling of the number of particles from 10<sup>5</sup> to 10<sup>10</sup> per GPU.
+<div class="announcement-list">
+  <article class="announcement-item">
+    <p class="announcement-date">5/2025 - Present</p>
+    <p class="announcement-title">Software Engineer, KLA Computational Physics</p>
+    <p>Accepted KLA sponsorship for a masters degree, with full-time summer and part-time school-year work. Focused on accelerating electron-optics simulation for scanning electron microscopes. Moved Coulomb N-body electron interaction to GPU using a tree-based method, scaling particles per GPU from 10<sup>5</sup> to 10<sup>10</sup>.</p>
+  </article>
 
-- Software Internship, KLA Computational Physics [5/2024]: 
-Did skunkworks for a brand new project that aims to simulate the underlying physics of scanning electron microscopes. Skunkworks included refactoring and developing infrastructure for starting simplified core models. Reached 800X speedup for generation of secondary electron yield emissions using Numba Cuda. This has significant applications for CAE (Computer Aided Engineering), Systems Engineering, and Synthetic Data generation for AI Algos. This project is now a fully funded project and 3 PhDs and I are continuing to work on this full time. I continued this work on a part time basis during my senior year of undergrad.
+  <article class="announcement-item">
+    <p class="announcement-date">5/2024 - 5/2025</p>
+    <p class="announcement-title">Software Intern, KLA Computational Physics</p>
+    <p>Worked in skunkworks on a new SEM physics simulation program, including refactoring and infrastructure for simplified core models. Reached 800x speedup in secondary electron yield emission generation using Numba CUDA. The project became fully funded and continued part-time during senior year.</p>
+  </article>
 
-- Software Internship, KLA SW Infra [5/2023]: 
-Developed the underlying Apache Airflow code to deploy ML models using K8s with GPU support, and dynamic control for number of training instances. Included deploying my own K8s cluster, learning containerization & NVIDIA GPU Operator.
+  <article class="announcement-item">
+    <p class="announcement-date">5/2023</p>
+    <p class="announcement-title">Software Intern, KLA SW Infra</p>
+    <p>Developed Apache Airflow pipelines to deploy ML models on Kubernetes with GPU support and dynamic training-instance control, including cluster setup and NVIDIA GPU Operator integration.</p>
+  </article>
+</div>
