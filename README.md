@@ -18,69 +18,53 @@
 
 <div class="announcement-list">
   <article class="announcement-item">
-    <p class="announcement-date">8/25/2025</p>
-    <p class="announcement-title">Started Masters Degree at UIUC</p>
-    <p>Classes for Fall 2025:</p>
+    <p class="announcement-date">2025-2026</p>
+    <p class="announcement-title">Classes I like at UIUC</p>
     <ul>
-      <li>Manycore Parallel Algorithms (ECE 508)</li>
-      <li>Distributed Systems (CS 425)</li>
-      <li>Applied Machine Learning (CS 441)</li>
+      <li>Advanced Operating Systems (CS 523) - In progress, working on project to analyze different paging strategies for vIOMMU.</li>
+      <li>Parallel Computer Architecture (CS 533) - Characterizing performance of Cornerstone a novel technique for building distributed octrees that are rebalancing.</li>
+      <li>Manycore Parallel Algorithms (ECE 508) - Built forward pass of Llama 3.1 8B in CUDA; analysis of whether Fp8 weights can benefit performance on machines without FP8 hardware.</li>
+      <li>Distributed Systems (CS 425) - Built failure detector (heartbeat & ping-pong style), Distributed Filesystem, Distributed Stream Processing Framework (Similar to Apache Spark)</li>
+      <li>Numerical Analysis (CS 450)</li>
     </ul>
   </article>
 
   <article class="announcement-item">
-    <p class="announcement-date">5/2025</p>
-    <p class="announcement-title">Started full-time SWE for the summer with KLA Computational Physics</p>
-    <p>Working on computational acceleration of electron optics simulations.</p>
+    <p class="announcement-date">May - August 2025</p>
+    <p class="announcement-title">KLA 2025 Summer Work</p>
+    <p>Worked on GPU acceleration of electron beam simulations.</p>
   </article>
 
   <article class="announcement-item">
     <p class="announcement-date">5/2025</p>
     <p class="announcement-title">Graduated from Michigan State University</p>
-    <p>B.S. in Computer Science, GPA: 4.0/4.0.</p>
-  </article>
-
-  <article class="announcement-item">
-    <p class="announcement-date">5/2025</p>
-    <p class="announcement-title">Completed Spring 2025</p>
-    <p>Notable classes: Performance Engineering and graduate-level DSA. The Performance Engineering course mirrors MIT's course by Charles E. Leiserson.</p>
+    <p>B.S. in Computer Science, GPA: 4.0/4.0. Honors College.</p>
   </article>
 
   <article class="announcement-item">
     <p class="announcement-date">4/2025</p>
-    <p class="announcement-title">Accepted M.C.S offer from University of Illinois Urbana-Champaign</p>
+    <p class="announcement-title">Accepted M.C.S offer from University of Illinois Urbana-Champaign!</p>
   </article>
 
   <article class="announcement-item">
-    <p class="announcement-date">4/2025</p>
-    <p class="announcement-title">Accepted to University of Michigan Computer Science M.S. program</p>
-  </article>
-
-  <article class="announcement-item">
-    <p class="announcement-date">3/2025</p>
-    <p class="announcement-title">Accepted to University of Illinois Urbana-Champaign M.C.S. program</p>
-  </article>
-
-  <article class="announcement-item">
-    <p class="announcement-date">3/2025</p>
-    <p class="announcement-title">Accepted to Michigan State University Computer Science M.S. program</p>
+    <p class="announcement-date">Spring 2025</p>
+    <p class="announcement-title"></p>
+    <ul>
+      <li>Accepted to University of Illinois Urbana-Champaign M.C.S. program</li>
+      <li>University of Michigan Computer Science M.S. program</li>
+      <li>Accepted to Michigan State University Computer Science M.S. program</li>
+    </ul>
   </article>
 
   <article class="announcement-item">
     <p class="announcement-date">12/2024</p>
-    <p class="announcement-title">Completed AbbVie capstone project</p>
+    <p class="announcement-title">Completed AbbVie capstone project @ Michigan State University</p>
     <p>Analysis of biphasic solutions using computer vision.</p>
   </article>
 
   <article class="announcement-item">
     <p class="announcement-date">9/2024</p>
-    <p class="announcement-title">Accepted KLA offer for SWE P1 (Summer 2025)</p>
-    <p>Includes MCS sponsorship and a post-graduation P2 position.</p>
-  </article>
-
-  <article class="announcement-item">
-    <p class="announcement-date">5/2024</p>
-    <p class="announcement-title">Started second SWE internship at KLA Computational Physics</p>
+    <p class="announcement-title">Accepted KLA offer for masters program sponsorship (Summer 2025)</p>
   </article>
 </div>
 
