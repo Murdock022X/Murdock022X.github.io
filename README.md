@@ -2,7 +2,7 @@
 
 ### Skills
 
-![Semiconductor Badge](/assets/skills/kla.png)
+![Semiconductor Badge](https://img.shields.io/badge/Semiconductor-KLA-0F172A?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgOTAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iS0xBIGxvZ28iPgogIDxyZWN0IHdpZHRoPSIzMjAiIGhlaWdodD0iOTAiIHJ4PSIxMCIgZmlsbD0iIzBhNGZhMyIvPgogIDx0ZXh0IHg9IjE2MCIgeT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjUyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIj5LTEE8L3RleHQ%2BCjwvc3ZnPgo%3D&logoColor=white)
 ![Computational Physics Badge](https://img.shields.io/badge/Computational%20Physics-0A66C2)
 ![Numerical Analysis Badge](https://img.shields.io/badge/Numerical%20Analysis-1D4ED8)
 ![Computer Architecture Badge](https://img.shields.io/badge/Computer%20Architecture-2563EB)
