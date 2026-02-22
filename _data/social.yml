@@ -5,10 +5,10 @@
   url: https://www.linkedin.com/in/henry-murdock/
   icon: fab fa-linkedin
 - title: CUDA
-  url: https://developer.nvidia.com/cuda-zone
+  url: "#"
 - title: C/C++
-  url: https://isocpp.org/
+  url: "#"
 - title: Python
-  url: https://www.python.org/
+  url: "#"
 - title: GPU
-  url: https://developer.nvidia.com/gpu-computing
+  url: "#"

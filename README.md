@@ -70,6 +70,28 @@
   </article>
 </div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var lists = document.querySelectorAll(".social-media-list");
+  lists.forEach(function (list) {
+    var items = list.querySelectorAll("li");
+    if (items.length < 3) return;
+
+    for (var i = 2; i < items.length; i++) {
+      var li = items[i];
+      var link = li.querySelector("a");
+      if (!link) continue;
+
+      var label = link.textContent.trim();
+      var badge = document.createElement("span");
+      badge.className = "skill-badge";
+      badge.textContent = label;
+      link.replaceWith(badge);
+    }
+  });
+});
+</script>
+
 ### Education
 
 <div class="announcement-list">
