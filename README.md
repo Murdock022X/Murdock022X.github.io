@@ -1,9 +1,23 @@
 # Henry Murdock
 
+#### Skills
+
+**Computational + Hardware**
+![Semiconductor Badge](https://img.shields.io/badge/Semiconductor-0F172A)
 ![CUDA Badge](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
+![Computational Physics Badge](https://img.shields.io/badge/Computational%20Physics-0A66C2)
+![Numerical Analysis Badge](https://img.shields.io/badge/Numerical%20Analysis-1D4ED8)
+![Computer Architecture Badge](https://img.shields.io/badge/Computer%20Architecture-2563EB)
+
+**Systems + Infrastructure**
+![Containers Badge](https://img.shields.io/badge/Containers-2496ED?logo=docker&logoColor=white)
+![Kubernetes Badge](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+
+**Programming + ML**
 ![C/C++ Badge](https://img.shields.io/badge/C%2FC%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![GPU Badge](https://img.shields.io/badge/GPU-111827?logo=nvidia&logoColor=white)
+![PyTorch Badge](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![Golang Badge](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
 
 ### Announcements
 
