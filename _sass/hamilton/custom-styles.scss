@@ -185,14 +185,53 @@ a[aria-label*="Subscribe"] {
     display: none !important;
 }
 
-/* Add KLA logo to sidebar */
-.site-sidebar::after,
-.sidebar::after,
-aside::after {
-    content: "";
-    display: block;
-    width: 140px;
-    height: 40px;
-    margin: 1rem auto 0;
-    background: url('/kla-logo.svg') center/contain no-repeat;
+
+/* Additional theme-specific subscribe/handle cleanup */
+.button-subscribe,
+.subscribe-button,
+.btn-subscribe,
+.sidebar-subscribe,
+.newsletter,
+.widget-subscribe,
+a[href*="/feed"],
+a[href*="rss"] {
+    display: none !important;
+}
+
+.author-profile__username,
+.profile-username,
+.user-name,
+meta[name="twitter:site"] {
+    display: none !important;
+}
+
+.username::before,
+.author-username::before,
+.site-username::before,
+.author-profile__username::before,
+.profile-username::before,
+.user-name::before {
+    content: "" !important;
+}
+
+/* Remove leftover subscribe slot/container spacing in sidebar */
+.site-sidebar [class*="subscribe"],
+.sidebar [class*="subscribe"],
+aside [class*="subscribe"],
+.site-sidebar .feed-subscribe,
+.sidebar .feed-subscribe {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    border: 0 !important;
+}
+
+/* Remove list rows that only contain feed/subscribe links */
+.site-sidebar li:has(> a[href*="feed"]),
+.site-sidebar li:has(> a[href*="rss"]),
+.sidebar li:has(> a[href*="feed"]),
+.sidebar li:has(> a[href*="rss"]) {
+    display: none !important;
 }
