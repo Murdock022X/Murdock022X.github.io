@@ -94,6 +94,17 @@ main,
     background-color: #e8dcc6;
 }
 
+/* Keep sidebar and main panels on the same beige surface */
+main,
+.page-content,
+.post,
+.post-content,
+.site-sidebar,
+.sidebar,
+aside {
+    background-color: #e8dcc6 !important;
+}
+
 @media (max-width: 800px) {
     .wrapper {
         max-width: none;
