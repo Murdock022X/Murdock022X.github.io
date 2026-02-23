@@ -10,7 +10,7 @@
 ![Kubernetes Badge](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 ![C/C++ Badge](https://img.shields.io/badge/C%2FC%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![CUDA Badge](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
-![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=ffdd54)
 ![Golang Badge](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
 ![PyTorch Badge](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 
