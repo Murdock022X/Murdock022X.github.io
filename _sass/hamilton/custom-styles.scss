@@ -61,7 +61,7 @@ h3 {
 /* Force light rendering without collapsing layout */
 html,
 body {
-    background-color: #e8dcc6 !important;
+    background-color: #ffffff !important;
     color: #1f2937 !important;
 }
 
@@ -83,7 +83,18 @@ main,
 }
 
 .site-content {
-    padding-top: 0.75rem;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0.75rem 1.25rem 1.5rem;
+    background-color: #e8dcc6;
+}
+
+@media (max-width: 800px) {
+    .site-content {
+        max-width: none;
+        margin: 0;
+        padding: 0.6rem 0.8rem 1rem;
+    }
 }
 
 /* Remove subscribe elements */
