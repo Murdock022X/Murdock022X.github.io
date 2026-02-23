@@ -11,8 +11,8 @@
 ![C/C++ Badge](https://img.shields.io/badge/C%2FC%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![CUDA Badge](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=white)
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![PyTorch Badge](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![Golang Badge](https://img.shields.io/badge/Golang-00ADD8?logo=go&logoColor=white)
+![PyTorch Badge](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 
 ### Announcements
 
@@ -94,14 +94,14 @@
   </article>
 
   <article class="announcement-item">
-    <p class="announcement-date">5/2024 - 5/2025</p>
-    <p class="announcement-title">Software Intern, KLA Computational Physics</p>
-    <p>Worked in skunkworks on a new SEM physics simulation program, including refactoring and infrastructure for simplified core models. Reached 800x speedup in secondary electron yield emission generation using Numba CUDA. The project became fully funded and continued part-time during senior year.</p>
+    <p class="announcement-date">May 2024 - Present</p>
+    <p class="announcement-title">Software Engineer, KLA Computational Physics</p>
+    <p>Worked in skunkworks on a new SEM physics simulation program, including refactoring and infrastructure for simplified core models. Reached 800x speedup in secondary electron yield emission generation using Numba CUDA. The project became fully funded and continued working on it since then while completing my undergraduate and masters degrees.</p>
   </article>
 
   <article class="announcement-item">
     <p class="announcement-date">5/2023</p>
-    <p class="announcement-title">Software Intern, KLA SW Infra</p>
+    <p class="announcement-title">Software Intern, KLA SW Infrastructure</p>
     <p>Developed Apache Airflow pipelines to deploy ML models on Kubernetes with GPU support and dynamic training-instance control, including cluster setup and NVIDIA GPU Operator integration.</p>
   </article>
 </div>
