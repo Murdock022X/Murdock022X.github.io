@@ -83,17 +83,22 @@ main,
 }
 
 .site-content {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0.75rem 1.25rem 1.5rem;
+    background: transparent !important;
+    padding: 0.75rem 0;
+}
+
+.wrapper {
+    max-width: 1080px !important;
+    margin: 0 auto !important;
+    padding: 0 1.25rem 1.5rem;
     background-color: #e8dcc6;
 }
 
 @media (max-width: 800px) {
-    .site-content {
+    .wrapper {
         max-width: none;
         margin: 0;
-        padding: 0.6rem 0.8rem 1rem;
+        padding: 0 0.8rem 1rem;
     }
 }
 
